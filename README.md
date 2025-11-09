@@ -1,4 +1,4 @@
-![WhatsApp Image 2025-11-09 at 18 00 37](https://github.com/user-attachments/assets/3e6bdbce-ad97-45eb-bef2-722843d585a8)
+
 To Implement Linear Discriminant Analysis (LDA)
 
 Objective:
@@ -19,8 +19,10 @@ Minimizes the spread within each class (within-class variance).
 Hence, LDA finds a linear combination of features that best separates two or more classes.
 
 Mathematical Formulation:
+![WhatsApp Image 2025-11-09 at 18 00 37](https://github.com/user-attachments/assets/3e6bdbce-ad97-45eb-bef2-722843d585a8)
 
 Algorithm Steps:
+![Uploading WhatsApp Image 2025-11-09 at 18.03.31.jpeg…]()
 
 
 Result:
