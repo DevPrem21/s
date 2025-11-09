@@ -39,7 +39,7 @@ for i, color in zip(range(len(iris.target_names)), colors):
 
 plt.xlabel("LD1")
 plt.ylabel("LD2")
-plt.title("LDA Projection of Iris Dataset - ANSH PANDEY (Roll No 51)")
+plt.title("LDA Projection of Iris Dataset - PREMCHAND KUMAR MANDAL (Roll No 40)")
 plt.legend()
 plt.grid(True)
 plt.show()
