@@ -1,3 +1,4 @@
+![WhatsApp Image 2025-11-09 at 18 00 37](https://github.com/user-attachments/assets/3e6bdbce-ad97-45eb-bef2-722843d585a8)
 To Implement Linear Discriminant Analysis (LDA)
 
 Objective:
