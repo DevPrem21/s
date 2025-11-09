@@ -1,41 +1,31 @@
-TITLE: Implementation of Code Generation Phase of Compiler
+To Implement Linear Discriminant Analysis (LDA)
 
-AIM:
-Write a program to implement code generation for a given grammar using Python
+Objective:
+
+To perform dimensionality reduction using Linear Discriminant Analysis (LDA) and observe how it separates different classes in a dataset.
 
 Theory:
-Code Generation:
 
-After syntax analysis and semantic checking, code generation produces target code from the decorated abstract syntax tree (AST).
+Linear Discriminant Analysis (LDA) is a supervised linear transformation technique used for dimensionality reduction and classification.
+It projects high-dimensional data onto a lower-dimensional space while maximizing class separability.
 
-The generated code can be intermediate code (like LLVM IR) or final target code (assembly, machine code).
+Unlike Principal Component Analysis (PCA) which is unsupervised and focuses only on maximum variance, LDA uses class labels to find a projection that:
 
-Registers and Descriptors:
+Maximizes the distance between the means of different classes (between-class variance), and
 
-Register Descriptor: Tracks what value is currently in each register (initially empty).
+Minimizes the spread within each class (within-class variance).
 
-Address Descriptor: Tracks where (register or memory) the current value of a variable is stored.
+Hence, LDA finds a linear combination of features that best separates two or more classes.
 
-Example:
+Mathematical Formulation:
 
-For three-address code x := y + z, code generated:
+Algorithm Steps:
 
-MOV y, R0
 
-ADD z, R0
+Result:
 
-MOV R0, x
+The dataset was successfully reduced to two dimensions using LDA.
+The plot shows that LDA clearly separates different classes, demonstrating maximum class separability in the reduced space.
 
-Code Generation Algorithm:
 
-For each statement a := b op c:
 
-1.Use getreg() to find a register L for storing the result.
-
-2.If b is not in L, generate MOV b, L.
-
-3.Generate op c, L.
-
-4.Update address descriptors to show a is now in L.
-
-5.Free registers holding b and c if they are no longer needed.
