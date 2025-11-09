@@ -22,7 +22,8 @@ Mathematical Formulation:
 ![WhatsApp Image 2025-11-09 at 18 00 37](https://github.com/user-attachments/assets/3e6bdbce-ad97-45eb-bef2-722843d585a8)
 
 Algorithm Steps:
-![Uploading WhatsApp Image 2025-11-09 at 18.03.31.jpeg…]()
+<img width="730" height="342" alt="image" src="https://github.com/user-attachments/assets/910d6d3e-902f-482d-bb4f-401baa02c215" />
+
 
 
 Result:
